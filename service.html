@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sakin Khan</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet"
+  href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+  <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Kay+Pho+Du:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+</head>
+
+<body>
+    <header>
+       <a href="#" class="logo">Sakin <span>Khan</span></a> 
+       <div class="bx bx-menu" id ="menu-icon"></div>
+       <ul class="navlist">
+        <li><a href="index.html"> Home</a></li>
+        <li><a href="index.html"> About</a></li>
+        <li><a href="index.html"> Education</a></li>
+        <li><a href="index.html"> My Skills</a></li>
+        <li><a href="index.html"> Services</a></li>
+        <li><a href="index.html"> Portfolio</a></li>
+        
+       </ul>
+       <div class="top-btnn">
+        <a href="#contact" class="h-btn">Contact me</a>
+
+       </div>
+    </header>
+    <!---services-->
+    <section class="portfolio" id="services">
+        <div class="center-text" data-aos="fade-down">
+            <h2>My <span>Services</span></h2>
+        </div>
+        <div class="services-content" data-aos="zoom-in-up">
+            <div class="box">
+                <img class="hop" src="img/icons8-service-48.png" alt="" srcset="">
+                <h3>Web Development</h3>
+                <p>Experienced web developer proficient in HTML,CSS,JavaScript and Various frameworks.Strong problem-solving and debugging skills.Versatile with focus on responsive design and user-friendly web applications.</p>
+                <a href="protfolio.html">See My Projects </a>
+                <i class="ri-arrow-right-line"></i>
+            </div>
+
+            <div class="box">
+                <img class="hop" src="img/icons8-service-48.png" alt="" srcset="">
+                <h3>Web Design</h3>
+                <p>Experienced graphic designer skilled in Adobe Creative Suite, with a strong eye for aesthetics, versatile in branding, web, and print design. Creative problem-solver committed to high-quality, on-brand visuals.</p>
+                <a href="protfolio.html">See My Projects </a>
+                <i class="ri-arrow-right-line"></i>
+            </div>
+
+            <div class="box">
+                <img class="hop" src="img/icons8-service-48.png" alt="" srcset="">
+                <h3>Programmer</h3>
+                <p>Experienced programmer proficient in multiple languages, excels in problem-solving, and passionate about software development. Adaptable and committed to crafting efficient, maintainable code for diverse projects.</p>
+                <a href="protfolio.html">See My Projects </a>
+                <i class="ri-arrow-right-line"></i>
+            </div>
+
+            <div class="box">
+                <img class="hop" src="img/icons8-service-48.png" alt="" srcset="">
+                <h3>Graphic Designer</h3>
+                <p>As a graphic designer, I blend imagination with pixels, crafting visual symphonies. From logos to layouts, each design is a narrative waiting to unfold, a testament to creativity and precision.</p>
+                <a href="protfolio.html">See My Projects </a>
+                <i class="ri-arrow-right-line"></i>
+            </div>
+
+            <div class="box">
+                <img class="hop" src="img/icons8-service-48.png" alt="" srcset="">
+                <h3>Ms Office Expart</h3>
+                <p>As an MS Office expert, I orchestrate documents with Word finesse, crunch numbers seamlessly in Excel, and bring data to life in PowerPoint. Efficiency meets creativity under my digital command.</p>
+                
+                <a href="protfolio.html">See My Projects </a>
+                <i class="ri-arrow-right-line"></i>
+            </div>
+
+        </div>
+        <a href="index.html" class="btnx"> Back to Home..</a>
+    </section>
+
+    <!--- Contact-->
+    <section class="comtact" id="contact">
+        <div class="center-text"data-aos="fade-down">
+            <h2>Contact <span></span>Me</h2>
+        </div>
+        <div class="contact-form" data-aos="zoom-in-up">
+            <form action="">
+                <input type="text" placeholder="Your Name" required>
+                <input type="email" placeholder="Email Address.." required>
+                <textarea name="" id="" cols="30" rows="10" placeholder="Write Message Here" required></textarea>
+                <input type="submit"name=""value="Send Mesage"class="send-btn">
+            </form>
+        </div>
+    </section>
+
+    <div class="footer">
+        <div class="bx-copyright">
+            <p>2023 Sakin Khan , All Rights Reserved</p>
+        </div>
+        <a href="#home" class="scrool-top">
+            <i class="ri-arrow-up-s-fill"></i>
+
+        </a>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="js/script.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+    <script slot="circle-progress.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    
+    <script type="text/javascript">
+        // Disable right-click on the entire page
+        document.addEventListener('contextmenu', function (e) {
+            e.preventDefault();
+        }
+       
+        );
+    </script>
+    <script type="text/javascript">
+
+        // Function to prevent Ctrl+Shift+C
+        function disableCtrlShiftC(event) {
+            if (event.ctrlKey && event.shiftKey && event.keyCode == 67) {
+                event.preventDefault();
+            }
+            else if(event.ctrlKey && event.shiftKey && event.keyCode == 73) {
+                event.preventDefault();
+            }
+            else if(event.ctrlKey && event.shiftKey && event.keyCode == 84) {
+                event.preventDefault();
+            }
+          
+        }
+      
+        // Add event listener to catch keydown events
+        document.addEventListener('keydown', disableCtrlShiftC);
+    </script>
+
+    <script>
+
+      AOS.init({
+        offset:300,
+        duration:1400,
+      });
+    </script>
+</body>
+</html>

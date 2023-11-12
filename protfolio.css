@@ -1,0 +1,11 @@
+.row i {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 44px;
+  height: 44px;
+  font-size: 17px;
+  border-radius: 50%;
+  color: var(--text-color);
+  background: #075fe4;
+}
